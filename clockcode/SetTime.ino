@@ -1,18 +1,18 @@
 void setMinute(){
   //Blue Bg
-  newSetBG(512,100,1,0);
-  newpos2LEDs(currentMinute, 10, 0, 64);
+  newSetBG(512,100,3,0);
+  newpos2LEDs(currentMinute, 70, 0, 64);
   strip.show();
 }
 
 void setHour(){
   //yellow Bg
-  newSetBG(128,100,1,0);
+  newSetBG(128,100,3,0);
   int hourLED = currentHour;
   if (hourLED>11)
     hourLED = hourLED -12;
    
-  newpos2LEDs(hourLED*5, 10, 640, 0);
+  newpos2LEDs(hourLED*5, 70, 640, 0);
   strip.show();
 
 }

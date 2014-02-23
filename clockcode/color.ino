@@ -44,7 +44,7 @@ uint32_t HSV(uint16_t Hue, byte Sat, byte Value){
 
   // r = CalcV(Value,r);
   // Set output Value with Gain
-  Value = Value * Gain;
+  //Value = Value * Gain;
   int red = r + (127-r)*(100-Sat)/100;
   red = red*Value/127;
   int green = g + (127-g)*(100-Sat)/100;
