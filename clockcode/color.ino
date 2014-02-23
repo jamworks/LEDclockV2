@@ -57,6 +57,20 @@ uint32_t HSV(uint16_t Hue, byte Sat, byte Value){
 
   return(strip.Color(r,g,b));
 }
+//some color tests
+void colorTest(){
+  for(int i=0; i<12; i++){
+    if(i%3==0)
+      strip.setPixelColor(i,strip.Color(10,0,0));
+    if(i%3==1)
+      strip.setPixelColor(i,strip.Color(10,10,0));//is this yellow same/brighter?
+    if(i%3==2)
+      strip.setPixelColor(i,strip.Color(0,10,0));
+  }
+  strip.show();
+  delay(500);
+}
+
 
 
 

@@ -1,6 +1,7 @@
 #include <LPD8806.h>
 //#include <Chronodot.h>
 //Ver4 Jan 2014, version with photoimput gain
+// this is the defaultGain branch!
 // Date and time functions using a DS1307 RTC connected via I2C and Wire lib
 // Git repro LedClockV2
 #include <Wire.h>
@@ -69,6 +70,8 @@ void setup () {
   }
   
   delay(1000);
+  colorTest();
+  delay(10000);
 }
 
 void loop () {
