@@ -25,13 +25,13 @@ void newSetBG(int hue, int sat, int value, int twinkle){
   }
 }
 void newTime(int Csec, int Cmin, int Chour ){
-  newSetBG(256, 100, 1, 0);
-  newpos2LEDs(Csec, 10, 512, 0);
-  newpos2LEDs(Cmin, 10, 0, 64);
+  newSetBG(256, 100, 15, 0);
+  newpos2LEDs(Csec, 70, 512, 0);
+  newpos2LEDs(Cmin, 70, 0, 64);
   if(Chour>11)
     Chour = Chour-12;
   Chour = Chour*5;
-  newpos2LEDs(Chour, 10, 640, 0);
+  newpos2LEDs(Chour, 70, 640, 0);
   strip.show();
   delay(20);
 }
