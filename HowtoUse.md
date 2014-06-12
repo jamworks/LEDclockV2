@@ -3,9 +3,9 @@
 A colourful LED clock that not only shows the time but can put on a light show too! The clock has timekeeping battery that will last for many years. After you first set the time, the clock will display the correct time, even if the power goes off or you unplug it, as soon as power is restored to the clock.  This version has a photo light sensor that adjusts the clock light levels with a ambient light level. In a dark room the clock will not be as bright as in a sunny room.
 
 The clock can create numerous light effects,  I call these effects “tricks.” Each trick lasts about 2 seconds.  The clock works in three modes: 
-1-Keeps time 
-2-Keeps time plus performs a trick on the minute and on the hour 
-3-Keeps time plus performs a trick at random times.
+*1-Keeps time 
+*2-Keeps time plus performs a trick on the minute and on the hour 
+*3-Keeps time plus performs a trick at random times.
 
 ###POWER:
 Power is supplied via the USB connector which needs to be connected to the included USB power point.  Supplied with standard 240 VAC Aus power connector. Any other USB power point should work. It is just the standard USB 5 vdc supply. The USB connector also connects to the Arduino Micro that runs the clock. 
