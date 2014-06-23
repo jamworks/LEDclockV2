@@ -23,9 +23,9 @@ Set Hour - the hour time is shown in magenta and the remaining LEDs are yellow. 
 
 **Third Push of Centre Button:**  
 Select working mode for tricks - Pressing the outer buttons will cycle through the following choices which are indicated by the colour of the clock LEDs.
-1- No tricks = All LEDs green
-2- Tricks occur on the minute and the hour =  LEDs alternate green and blue
-3- Tricks occur at random times = LEDs alternate red, green, and blue
+- 1 No tricks = All LEDs green
+- 2 Tricks occur on the minute and the hour =  LEDs alternate green and blue
+- 3 Tricks occur at random times = LEDs alternate red, green, and blue
 
 **NOTE:** A fourth push of centre button will return clock to time display with your current settings. This will always happen in about 10 seconds even if you do nothing!
 
